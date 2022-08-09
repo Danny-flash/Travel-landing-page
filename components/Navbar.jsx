@@ -35,7 +35,7 @@ const Navbar = () => {
     <nav className={styles.container}>
         <div className={styles.sub_container}>
             <div className={styles.logo}>
-                <Image src={logo}/>
+                <Image src={logo} alt="highway"/>
             </div>
             <motion.ul className={styles.navLinks}
                initial={"hidden"}

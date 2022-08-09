@@ -11,7 +11,7 @@ const Frontpage = () => {
   return (
     <div className={styles.container}>
         <div className={styles.earth}>
-        <Image src={Earth} />
+        <Image src={Earth} alt="earth"/>
         </div>
         
       <div className={styles.front_flex}>
@@ -30,7 +30,7 @@ const Frontpage = () => {
             yoyo: Infinity
           }} 
        >
-        <Image src={highway} />
+        <Image src={highway} alt="highway"/>
         </motion.div>
         <motion.div className={styles.beach}
           animate={{
@@ -41,7 +41,7 @@ const Frontpage = () => {
             yoyo: Infinity
           }} 
         >
-        <Image src={beach} />
+        <Image src={beach} alt="highway"/>
         </motion.div>
         <motion.div className={styles.luggage}
          animate={{
@@ -52,7 +52,7 @@ const Frontpage = () => {
           yoyo: Infinity
         }} 
         >
-        <Image src={luggage} />
+        <Image src={luggage} alt="highway"/>
         </motion.div>
         </div>
       </div>

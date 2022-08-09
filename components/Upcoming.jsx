@@ -26,7 +26,7 @@ const Upcoming = () => {
                     yoyo: Infinity
                   }} 
               >
-                <Image src={sahara} height={500}/>
+                <Image src={sahara} height={500} alt="highway"/>
               </motion.div>
               <motion.div className={styles.img}
                 animate={{
@@ -38,7 +38,7 @@ const Upcoming = () => {
                     yoyo: Infinity,
                   }} 
               >
-                <Image src={venice} height={500}/>
+                <Image src={venice} height={500} alt="highway"/>
               </motion.div>
               <motion.div className={styles.img}
                  animate={{
@@ -50,7 +50,7 @@ const Upcoming = () => {
                     yoyo: Infinity
                   }} 
               >
-                <Image src={turkey} height={500}/>
+                <Image src={turkey} height={500} alt="highway"/>
               </motion.div>
               <motion.div className={styles.img}
                animate={{
@@ -62,7 +62,7 @@ const Upcoming = () => {
                 yoyo: Infinity
               }} 
               >
-                <Image src={petra} height={500}/>
+                <Image src={petra} height={500} alt="highway"/>
               </motion.div>
               </div>
               <div className={styles.mobile}>
@@ -77,7 +77,7 @@ const Upcoming = () => {
                     yoyo: Infinity
                   }} 
               >
-                <Image src={sahara} height={500}/>
+                <Image src={sahara} height={500} alt="highway"/>
               </motion.div>
               <motion.div className={styles.img}
                  animate={{
@@ -89,7 +89,7 @@ const Upcoming = () => {
                     yoyo: Infinity,
                   }} 
               >
-                <Image src={venice} height={500}/>
+                <Image src={venice} height={500} alt="highway"/>
               </motion.div>
               <motion.div className={styles.img}
                     animate={{
@@ -101,7 +101,7 @@ const Upcoming = () => {
                         yoyo: Infinity
                       }} 
               >
-                <Image src={turkey} height={500}/>
+                <Image src={turkey} height={500} alt="highway"/>
               </motion.div>
               <motion.div className={styles.img}
                  animate={{
@@ -113,7 +113,7 @@ const Upcoming = () => {
                     yoyo: Infinity
                   }} 
               >
-                <Image src={petra} height={500}/>
+                <Image src={petra} height={500} alt="highway"/>
               </motion.div>
             </div>
               </div>

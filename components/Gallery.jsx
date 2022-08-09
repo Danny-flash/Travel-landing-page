@@ -43,7 +43,7 @@ const Gallery = () => {
                <motion.div className={styles.box}
                 variants={boxvariants}
                >
-                    <Image src={grand}/>
+                    <Image src={grand} alt="highway"/>
                    
                     <div className={styles.box_desc}>
                         <p className={styles.place} >
@@ -58,7 +58,7 @@ const Gallery = () => {
                <motion.div className={styles.box}
                 variants={boxvariants}
                >
-                    <Image src={macchu}/>
+                    <Image src={macchu} alt="highway"/>
                     <div className={styles.box_desc}>
                     <p className={styles.place} >
                             Machu Picchu
@@ -72,7 +72,7 @@ const Gallery = () => {
                <motion.div className={styles.box}
                  variants={boxvariants}
                >
-                    <Image src={maldives}/>
+                    <Image src={maldives} alt="highway"/>
                     <div className={styles.box_descc}>
                     <p className={styles.place} >
                             Maldives
@@ -86,7 +86,7 @@ const Gallery = () => {
                <motion.div className={styles.box}
                 variants={boxvariants}
                >
-                    <Image src={cappadocia}/>
+                    <Image src={cappadocia} alt="highway"/>
                     <div className={styles.box_desc}>
                     <p className={styles.place} >
                             Cappadocia
@@ -101,7 +101,7 @@ const Gallery = () => {
                <motion.div className={styles.box}
                 variants={boxvariants}
                >
-                    <Image src={sydney}/>
+                    <Image src={sydney} alt="highway"/>
                     <div className={styles.box_descc}>
                     <p className={styles.place} >
                             Sydney Opera House
@@ -116,7 +116,7 @@ const Gallery = () => {
                <motion.div className={styles.box}
                 variants={boxvariants}
                >
-                    <Image src={victoria}/>
+                    <Image src={victoria} alt="highway"/>
                     <div className={styles.box_desc}>
                     <p className={styles.place} >
                             Victoria Falls
@@ -131,7 +131,7 @@ const Gallery = () => {
                <motion.div className={styles.box}
                 variants={boxvariants}
                >
-                    <Image src={colo}/>
+                    <Image src={colo} alt="highway"/>
                     <div className={styles.box_desc}>
                     <p className={styles.place} >
                             Colosseum

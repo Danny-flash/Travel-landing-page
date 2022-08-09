@@ -73,7 +73,7 @@ const Packages = () => {
             <div className={styles.pc}>
             <div className={styles.slide_container}>
       <div className={styles.slide}>
-        <Image src={hawaii} />
+        <Image src={hawaii} alt="highway"/>
         <motion.div className={styles.slide_body}
         initial={"hidden"}
         whileInView={"visible"}
@@ -96,7 +96,7 @@ const Packages = () => {
       </motion.div>
       </div>
       <div className={styles.slide}>
-      <Image src={tower} />
+      <Image src={tower} alt="highway"/>
       <motion.div className={styles.slide_body}
        initial={"hidden"}
        whileInView={"visible"}
@@ -111,7 +111,7 @@ const Packages = () => {
       </motion.div>
       </div>
       <div className={styles.slide}>
-      <Image src={yellow} />
+      <Image src={yellow} alt="highway"/>
       <motion.div className={styles.slide_body}
        initial={"hidden"}
        whileInView={"visible"}
@@ -126,7 +126,7 @@ const Packages = () => {
       </motion.div>
       </div >
       <div className={styles.slide}>
-      <Image src={egypt} />
+      <Image src={egypt} alt="highway"/>
       <motion.div className={styles.slide_body}
       initial={"hidden"}
         whileInView={"visible"}
@@ -140,7 +140,7 @@ const Packages = () => {
       </motion.div>
       </div>
       <div className={styles.slide}>
-      <Image src={sydney} />
+      <Image src={sydney} alt="highway"/>
       <motion.div className={styles.slide_body}
        initial={"hidden"}
        whileInView={"visible"}
@@ -155,7 +155,7 @@ const Packages = () => {
       </motion.div>
       </div>
       <div className={styles.slide}>
-      <Image src={coloo} />
+      <Image src={coloo} alt="highway"/>
       <motion.div className={styles.slide_body}
        initial={"hidden"}
        whileInView={"visible"}
@@ -175,7 +175,7 @@ const Packages = () => {
             <div className={styles.mobile}>
             <Slider {...settings} className={styles.slide_container}>
       <div className={styles.slide} style={{margin: "0px 20px"}}>
-        <Image src={hawaii} />
+        <Image src={hawaii} alt="highway"/>
         <div className={styles.slide_body}>
         <div className={styles.flex}><ImLocation2 className={styles.icon}/> Hawaii</div>
         <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, temporibus.</p>
@@ -184,7 +184,7 @@ const Packages = () => {
       </div>
       </div>
       <div className={styles.slide}>
-      <Image src={tower} />
+      <Image src={tower} alt="highway"/>
       <div className={styles.slide_body}>
         <div className={styles.flex}><ImLocation2 className={styles.icon}/> Eiffel Tower</div>
         <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, temporibus.</p>
@@ -193,7 +193,7 @@ const Packages = () => {
       </div>
       </div>
       <div className={styles.slide}>
-      <Image src={yellow} />
+      <Image src={yellow} alt="highway"/>
       <div className={styles.slide_body}>
         <div className={styles.flex}><ImLocation2 className={styles.icon}/>Yellow Stone</div>
         <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, temporibus.</p>
@@ -202,7 +202,7 @@ const Packages = () => {
       </div>
       </div >
       <div className={styles.slide}>
-      <Image src={egypt} />
+      <Image src={egypt} alt="highway"/>
       <div className={styles.slide_body}>
         <div className={styles.flex}><ImLocation2 className={styles.icon}/> Pyramid of Giza</div>
         <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, temporibus.</p>
@@ -211,7 +211,7 @@ const Packages = () => {
       </div>
       </div>
       <div className={styles.slide}>
-      <Image src={sydney} />
+      <Image src={sydney} alt="highway"/>
       <div className={styles.slide_body}>
         <div className={styles.flex}><ImLocation2 className={styles.icon}/> Sydney</div>
         <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, temporibus.</p>
@@ -220,7 +220,7 @@ const Packages = () => {
       </div>
       </div>
       <div className={styles.slide}>
-      <Image src={coloo} />
+      <Image src={coloo} alt="highway"/>
       <div className={styles.slide_body}>
         <div className={styles.flex}><ImLocation2 className={styles.icon}/> Colosseum</div>
         <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, temporibus.</p>

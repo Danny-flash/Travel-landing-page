@@ -13,7 +13,7 @@ const Contact = () => {
 
             <div className={styles.contact_cont}>
             <div className={styles.highway}>
-        <Image src={contact}/>
+        <Image src={contact} alt="contact-image"/>
         </div>
         <div className={styles.form}>
            <div className={styles.sub_form}>

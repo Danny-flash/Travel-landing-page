@@ -26,7 +26,7 @@ const Footer = () => {
         <div className={styles.container}>
            <div className={styles.abs}>
            <div className={styles.image}>
-              <Image src={footer} height={500}/>
+              <Image src={footer} height={500} alt="footer-image"/>
             </div>
            </div>
 
