@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body{
+
+    background: linear-gradient(117deg, rgba(3,1,36,1) 0%, rgba(1,1,20,1) 51%, rgba(2,46,57,1) 94%, rgba(5,64,77,1) 99%);
+    min-height: 100vh;
+    background: rgb(2,1,28);
+    background: linear-gradient(0deg, rgba(2,1,28,1) 0%, rgba(1,1,20,1) 100%);
+
+}
+
+::-webkit-scrollbar{
+  width: .2px;
+}
+::-webkit-scrollbar-track{
+  -webkit-box-shadow: inset 0 0 6px rgb(2,1,28);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:window-inactive{
+  background: rgba(255,255,255,0.4);
+  backdrop-filter: var(--backdrop-filter);
+}
+
+p{
+  color: white;
+}
+
+ul{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+.slick_slide {
+  display: block;
+  margin: 0px 20px;
+}
+

@@ -1,0 +1,166 @@
+
+.gallery{
+    margin: 100px 0px;
+}
+
+.gallery_container{
+    width: 90%;
+    margin: auto;
+}
+
+.gallery_header{
+    text-align: center;
+    font-size: 30px;
+    color: transparent;
+  -webkit-text-stroke: 1px rgb(100, 61, 136);
+  background: linear-gradient(0deg, rgb(2, 1, 24) 0%,
+  rgb(231, 9, 213) 50%, rgb(31, 2, 58) 100%);
+  -webkit-background-clip: text;
+  margin: 0;
+  margin-bottom: 7px;
+}
+.gallery_subheader{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(179, 175, 175);
+    margin-top: 0;
+}
+
+.box_containers{
+    columns:3 20rem ;
+    column-gap: 1.5rem;
+    
+}
+
+.box{
+    margin-bottom: 1rem;
+    break-inside: avoid;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid rgb(100, 61, 136);
+}
+
+.box img{
+    border-radius: 10px;
+    height: 50%;
+    transition:  all .7s ease;
+    width: 100%;
+}
+
+
+
+.box_desc{
+    position: absolute;
+    bottom: -10%;
+    padding-left: 5%;
+  width: 100%;
+  background: linear-gradient(transparent 0%, rgba(6, 6, 36,.5) 10%, rgba(1,1,20,1) 40%, rgba(2,46,57,1) 94%, rgba(5,64,77,1) 99%);
+  margin-bottom: 0;
+  transition:  all .7s ease;
+}
+.box_descc{
+    position: absolute;
+    bottom: -22%;
+    padding-left: 5%;
+  width: 100%;
+  background: linear-gradient(transparent 0%, rgba(6, 6, 36,.5) 10%, rgba(1,1,20,1) 40%, rgba(2,46,57,1) 94%, rgba(5,64,77,1) 99%);
+
+  margin-bottom: 0;
+  transition:  all .7s ease;
+}
+
+.place{
+    font-size: 22px;
+    margin: 0;
+}
+
+.location{
+    font-size: 16px;
+    width: 80%;
+    margin-bottom: 15px;
+    line-height: 2rem;
+}
+
+.box:hover.box img{
+    transform: scale(1.2);
+}
+.box:hover .box_desc{
+    bottom: 0;
+}
+.box:hover .box_descc{
+    bottom: 0;
+}
+
+
+.box button{
+    --glow-color: rgb(217, 176, 255);
+  --glow-spread-color: rgba(191, 123, 255, 0.781);
+  --enhanced-glow-color: rgb(231, 206, 255);
+  --btn-color: rgb(100, 61, 136);
+  border: .25em solid var(--glow-color);
+  padding: 1em 3em;
+  color: var(--glow-color);
+  font-size: 15px;
+  font-weight: bold;
+  background-color: var(--btn-color);
+  outline: none;
+  text-shadow: 0 0 .1em var(--glow-color);
+  position: relative;
+  transition: all 0.3s;
+  cursor: pointer;
+  width: 100%;
+  margin-left: -5%;
+
+}
+ 
+.box button::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: .7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+   }
+   
+   .box button:hover {
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 2em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+   }
+   
+   .box button:active {
+    box-shadow: 0 0 0.6em .25em var(--glow-color),
+           0 0 2.5em 2em var(--glow-spread-color),
+           inset 0 0 .5em .25em var(--glow-color);
+   }
+
+
+   @media screen and (max-width: 500px) {
+    .box_desc{
+        bottom: -12%;
+    }
+    .box_descc{
+       
+        bottom: -24%;
+    }
+   }
+
+
+   @media screen and (max-width: 340px) {
+    .box_desc{
+        bottom: -15%;
+    }
+    .box_descc{
+       
+        bottom: -29%;
+    }
+   }

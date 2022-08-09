@@ -1,0 +1,119 @@
+
+.contact{
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+
+
+.gallery_header{
+    text-align: center;
+    font-size: 30px;
+    color: transparent;
+  -webkit-text-stroke: 1px rgb(100, 61, 136);
+  background: linear-gradient(0deg, rgb(2, 1, 24) 0%,
+  rgb(231, 9, 213) 50%, rgb(31, 2, 58) 100%);
+  -webkit-background-clip: text;
+  margin: 0;
+  margin-bottom: 0px;
+  }
+  
+
+  
+.contact_cont{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.highway{
+    width: 500px;
+  }
+
+  .form{
+    background: linear-gradient(117deg, rgba(3,1,36,1) 0%, rgba(1,1,20,1) 51%, rgba(2,46,57,1) 94%, rgba(5,64,77,1) 99%);
+    width: 60%;
+    padding: 20px 10px;
+    border-radius: 7px;
+  }
+
+  .form input{
+       background: transparent;
+       border: none;
+       outline: none;
+       border-bottom: 1.5px solid rgb(109, 101, 101);
+       width: 97.5%;
+       padding: 10px 10px;
+       margin: 20px 0px;
+       color: white;
+  }
+
+
+
+  .flex{
+    display: flex;
+    gap: 15px;
+  }
+
+  .form button{
+    --glow-color: rgb(217, 176, 255);
+  --glow-spread-color: rgba(191, 123, 255, 0.781);
+  --enhanced-glow-color: rgb(231, 206, 255);
+  --btn-color: rgb(100, 61, 136);
+  padding: .5em 2em;
+  color: var(--glow-color);
+  font-size: 13px;
+  font-weight: bold;
+  background-color: var(--btn-color);
+  outline: none;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin-top: 20px;
+  }
+
+  .stu{
+    width: 80%;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .form input{
+      width: 94%;
+ }
+    .highway{
+      width: 300px;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .contact_cont{
+      display: flex;
+      width: 80%;
+      margin: auto;
+      margin-top: 40px;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+    
+    .form{
+      width: 100%;
+    }
+
+    .highway{
+      width: 300px;
+    }
+  
+    .form input{
+      width: 94%;
+ }
+
+     
+  }
+
+  @media screen and (max-width: 300px) {
+    .highway{
+      width: 220px;
+    }
+  }

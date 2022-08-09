@@ -1,0 +1,122 @@
+
+.package{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.gallery_header{
+    text-align: center;
+    font-size: 30px;
+    color: transparent;
+  -webkit-text-stroke: 1px rgb(100, 61, 136);
+  background: linear-gradient(0deg, rgb(2, 1, 24) 0%,
+  rgb(231, 9, 213) 50%, rgb(31, 2, 58) 100%);
+  -webkit-background-clip: text;
+  margin: 0;
+  margin-bottom: 7px;
+  }
+  .gallery_subheader{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(179, 175, 175);
+    margin-top: 0;
+  }
+  .slide_container{
+    margin: auto;
+    width: 80%;
+  }
+
+  .pc .slide_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .slide{
+border-radius: 10px; 
+background: linear-gradient(0deg, rgba(11,9,59,1) 0%, rgba(181,191,194,1) 97%);;
+ transition: all .7s ease;
+ display: flex;
+ flex-direction: column;
+ }
+
+ .slide img{
+  border-radius: 10px 10px 0 0;
+  transition: all .7s ease;
+ }
+ .slide:hover.slide img{
+  transform: scale(1.2);
+ }
+
+ .slide_body{
+  padding: 10px;
+ }
+
+ .flex{
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  color: white;
+ }
+
+ .icon{
+  margin-right: 6px;
+  color: rgb(129, 8, 119);
+ }
+ .desc{
+  font-size: 15px;
+  font-weight: 400;
+ }
+
+ .price{
+  color: rgb(212, 145, 207);
+ }
+ .slide_body button{
+  --glow-color: rgb(217, 176, 255);
+  --glow-spread-color: rgba(191, 123, 255, 0.781);
+  --enhanced-glow-color: rgb(231, 206, 255);
+  --btn-color: rgb(100, 61, 136);
+  
+  padding: .8em 3em;
+  color: var(--glow-color);
+  font-size: 12px;
+  font-weight: bold;
+  background-color: var(--btn-color);
+  outline: none;
+  text-shadow: 0 0 .1em var(--glow-color);
+  position: relative;
+  transition: all 0.3s;
+  cursor: pointer;
+  width: 100%;
+  flex: 0;
+border: none;
+ }
+
+ .slick_slide {
+  display: block;
+  margin: 0px 20px;
+}
+.mobile{
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  
+  .pc .slide_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .mobile{
+    display: flex;
+  }
+
+  .pc{
+    display: none;
+  }
+  
+}
