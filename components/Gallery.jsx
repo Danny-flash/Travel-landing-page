@@ -1,11 +1,12 @@
 import styles from '../styles/Gallery.module.css'
 import Image from "next/image"
-import grand from "../public/grand.jpg"
-import cappadocia from "../public/cappadocia.jpg"
+
+import canyon from "../public/grand1.jpg"
+import sdy from "../public/sdy.jpg"
 import macchu from "../public/macchu.jpg"
 import maldives from "../public/maldives.jpg"
-import sydney from "../public/sydney.jpg"
 import victoria from "../public/victoria.jpg"
+import cap from "../public/cap.jpg"
 import colo from "../public/colo.jpg"
 import {motion} from "framer-motion"
 
@@ -43,7 +44,7 @@ const Gallery = () => {
                <motion.div className={styles.box}
                 variants={boxvariants}
                >
-                    <Image src={grand} alt="highway"/>
+                    <Image src={canyon} alt="highway"/>
                    
                     <div className={styles.box_desc}>
                         <p className={styles.place} >
@@ -86,7 +87,7 @@ const Gallery = () => {
                <motion.div className={styles.box}
                 variants={boxvariants}
                >
-                    <Image src={cappadocia} alt="highway"/>
+                    <Image src={cap} alt="highway"/>
                     <div className={styles.box_desc}>
                     <p className={styles.place} >
                             Cappadocia
@@ -101,7 +102,7 @@ const Gallery = () => {
                <motion.div className={styles.box}
                 variants={boxvariants}
                >
-                    <Image src={sydney} alt="highway"/>
+                    <Image src={sdy} alt="highway"/>
                     <div className={styles.box_descc}>
                     <p className={styles.place} >
                             Sydney Opera House

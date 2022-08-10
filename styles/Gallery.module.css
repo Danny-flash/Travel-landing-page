@@ -53,7 +53,7 @@
 
 .box_desc{
     position: absolute;
-    bottom: -10%;
+    bottom: -8%;
     padding-left: 5%;
   width: 100%;
   background: linear-gradient(transparent 0%, rgba(6, 6, 36,.5) 10%, rgba(1,1,20,1) 40%, rgba(2,46,57,1) 94%, rgba(5,64,77,1) 99%);
@@ -62,7 +62,7 @@
 }
 .box_descc{
     position: absolute;
-    bottom: -22%;
+    bottom: -19%;
     padding-left: 5%;
   width: 100%;
   background: linear-gradient(transparent 0%, rgba(6, 6, 36,.5) 10%, rgba(1,1,20,1) 40%, rgba(2,46,57,1) 94%, rgba(5,64,77,1) 99%);
@@ -144,6 +144,24 @@
    }
 
 
+   @media screen and (max-width: 1300px) {
+    .box_desc{
+        bottom: -10%;
+    }
+    .box_descc{
+       
+        bottom: -22%;
+    }
+   }
+   @media screen and (max-width: 700px) {
+    .box_desc{
+        bottom: -9%;
+    }
+    .box_descc{
+       
+        bottom: -20%;
+    }
+   }
    @media screen and (max-width: 500px) {
     .box_desc{
         bottom: -12%;
