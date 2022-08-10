@@ -3,7 +3,7 @@ import Image from "next/image"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import sydney from "../public/sydney.jpg"
+import sdy from "../public/sdy.jpg"
 import tower from "../public/tower.jpg"
 import egypt from "../public/egypt.jpg"
 import hawaii from "../public/hawaii.jpg"
@@ -140,7 +140,7 @@ const Packages = () => {
       </motion.div>
       </div>
       <div className={styles.slide}>
-      <Image src={sydney} alt="highway"/>
+      <Image src={sdy} alt="highway"/>
       <motion.div className={styles.slide_body}
        initial={"hidden"}
        whileInView={"visible"}
@@ -211,7 +211,7 @@ const Packages = () => {
       </div>
       </div>
       <div className={styles.slide}>
-      <Image src={sydney} alt="highway"/>
+      <Image src={sdy} alt="highway"/>
       <div className={styles.slide_body}>
         <div className={styles.flex}><ImLocation2 className={styles.icon}/> Sydney</div>
         <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, temporibus.</p>
