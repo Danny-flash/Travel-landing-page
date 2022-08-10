@@ -83,8 +83,7 @@
         flex-direction: column;
         position: absolute;
         top: 100%;
-        background: rgba(0,0,0,0.5);
-        backdrop-filter: blur(10px);
+        background: rgba(0,0,0,0.9);
         width: 100%;
         left: 0;
         right: 0;
@@ -95,9 +94,13 @@
         justify-content: space-around;
         text-align: center;
         align-items: center;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
     }
     .sec_navLinks a{
         margin: auto;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
     }
   .logo p{
     font-size: 23px;
